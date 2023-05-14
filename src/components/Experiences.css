@@ -1,0 +1,33 @@
+.experience{
+	background: linear-gradient(-45deg, rgb(5, 243, 196), rgb(128, 83, 186), rgb(38, 93, 162), rgb(238, 224, 25));
+	background-size: 400% 400%;
+	animation: gradient 30s ease infinite;
+	height: auto;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.experience h1{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 100px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    max-height: 100%;
+    color: white;
+    font-size: 30px;
+    text-shadow: 
+        0.5px 0.5px 0px #020b16, 
+        2px 2px 0px #6868AC,
+        3px 3px 0px #c3b66d;
+    margin-bottom: -30px;
+}

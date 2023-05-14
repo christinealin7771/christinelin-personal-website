@@ -1,0 +1,190 @@
+.about-me {
+	background: linear-gradient(-45deg, rgb(5, 243, 196), rgb(128, 83, 186), rgb(38, 93, 162), rgb(238, 224, 25));
+	background-size: 400% 400%;
+	animation: gradient 30s ease infinite;
+	height: auto;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.about-me-content h1{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 100px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    max-height: 100%;
+    color: white;
+    font-size: 30px;
+    text-shadow: 
+        0.5px 0.5px 0px #020b16, 
+        3px 3px 0px #6868AC;
+    margin-bottom: -30px;
+}
+
+
+.about-me-prompt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 130px;
+   
+}
+
+
+.about-me-prompt img {
+    width: 22rem;
+    height: 28rem;
+    border-radius: 10rem 10rem 0 0;
+    flex: 0 0 auto;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+
+.about-me-prompt .text {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 45%;
+    text-align: left;
+}
+
+.about-me-prompt .text h1 {
+    font-size: 50px;
+    color: #e9d148
+}
+
+.about-me-prompt .text p {
+    color: white;
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+div .line
+{
+    margin-top: 10vh;
+    background-color: #000;
+    height: 1px;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: -2%;
+}
+
+
+/********** Fun Facts ************/
+.fun-facts h1{
+    text-align: left;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 100px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    max-height: 100%;
+    color: white;
+    font-size: 35px;
+    text-shadow: 
+        0.5px 0.5px 0px #020b16, 
+        2px 2px 0px #6868AC,
+        4px 4px 0px #c3b66d;
+    margin-bottom: -4%;
+}
+
+.fun-facts-prompt {
+    display: flex;
+    align-items: center;
+}
+
+.fun-facts-prompt .pet{
+    width: 120px;
+    height: 100px;
+    flex: 0 0 auto;
+    margin-right: 1vh;
+    margin-left: 10%;
+}
+
+/* .fun-facts-prompt .bubble {
+    flex: 1;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+} */
+
+
+.fun-facts-prompt .bubble-left {
+    position: relative;
+    background: #c4b1e1;
+    color: #1a1111;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    line-height: 60px;
+    box-shadow: 5px 5px 2px 0px #484430;
+    text-align: center;
+    width: 35%;
+    height: 60px;
+    border-radius: 10px;
+    padding: 0px;
+    margin-left: 100px;
+}
+.fun-facts-prompt .bubble-left:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    text-align: center;
+    border-style: solid;
+    border-color: transparent #c4b1e1;
+    border-width: 10px 24px 10px 0;
+    top: 71%;
+    left: -24px;
+    margin-top: -14px;
+}
+
+.fun-facts-prompt .pet-right{
+    width: 100px;
+    height: 100px;
+    flex: 0 0 auto;
+    margin-right: 1vh;
+    margin-left: 10%;
+}
+
+
+.fun-facts-prompt .bubble-right {
+    position: relative;
+    background: #c4b1e1;
+    color: #1a1111;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    line-height: 60px;
+    box-shadow: 5px 5px 2px 0px #484430;
+    text-align: center;
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 0px;
+    margin-left: 40%;
+}
+.fun-facts-prompt .bubble-right:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: transparent #c4b1e1;
+    border-width: 10px 0 10px 24px;
+    top: 71%;
+    right: -24px;
+    margin-top: -10px;
+}
+
+.bottom-spacing {
+    margin-bottom: 8%;
+}
