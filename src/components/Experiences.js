@@ -42,7 +42,7 @@ const Experiences = () => {
                         <p>
                             <li>Created a new SSO gateway using Spring Security 5 to replace the deprecated OAuth2.</li>
                             <li> Used the Spring Security 5 framework, Java, and Spring Boot to authenticate and authorize Java applications.</li>
-                            <li> Participated in multiple workshops learning about Machine Learning, AWS, Agile, DevOps, Golang, APIs, SQL, and React.</li>
+                            <li> Participated in multiple workshops to learn about Machine Learning, AWS, Agile, DevOps, Golang, APIs, SQL, and React.</li>
                         </p>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ const Experiences = () => {
                     <div class="timeline-content">
                         <h4>Juni Learning</h4>
                         <p>
-                            <li> Instruct middle and high school students to learn fundamental introductory Python and Java concepts.</li>
+                            <li> Instructed middle and high school students on the fundamentals of Python and Java concepts.</li>
                             <li> Worked with students on one-on-one projects and assignments that helped them understand computer science concepts.</li>
                         </p>
                     </div>
@@ -86,7 +86,7 @@ const Experiences = () => {
             <div className='between-spacing'></div>
         </div>
 
-        <h1> Organization Experince</h1>
+        <h1> Organization Experience</h1>
         
         <div class="resume-timeline">
             <div class="timeline-wrap">
@@ -102,9 +102,9 @@ const Experiences = () => {
                     <div class="timeline-content">
                         <h4>UF WICSE (Women in Computer Science and Engineering)</h4>
                         <p> 
-                            <li> Organize and lead weekly technical interview prep sessions to help students prepare for technical portions of the tech-related interviews.</li>
-                            <li> Organize and host resume and behavioral interview workshops to prepare students for the interview process.</li>
-                            <li> Teach and organized a weekly React Web Development course to teach students how to create frontend applications and learn tools like Git/Github.</li>
+                            <li> Organized and lead weekly technical interview prep sessions to help students prepare for technical portions of the tech-related interviews.</li>
+                            <li> Organized and hosted resume and behavioral interview workshops to prepare students for the interview process.</li>
+                            <li> Taught and organized weekly React Web Development workshops to teach students how to create frontend applications and learn tools like Git/Github.</li>
                         </p>
                     </div>
                 </div>
@@ -120,8 +120,8 @@ const Experiences = () => {
                     <div class="timeline-content">
                         <h4>University of Florida Society of Women Engineers (UF SWE)</h4>
                         <p>
-                            <li> Design a UAV (Unmanned Aerial Vehicle) for Search and Rescue in the event of building collapse. </li>
-                            <li> Lead my own team to work on the Mission Control Software to give missions to the drone of the dimension of the scans and get back data to build visual graphs.</li>
+                            <li> Designed a UAV (Unmanned Aerial Vehicle) for Search and Rescue in the event of building collapse. </li>
+                            <li> Lead a team designated to create a Mission Control Software that would facilitate the communication between the user and the UAV. This would include the dimensions of the scans and the retrieval of data for visualization.</li>
                         </p>
                     </div>
                 </div>

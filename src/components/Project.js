@@ -12,7 +12,7 @@ const Project = () => {
         <h1> Projects </h1>
         <div className='projectList'>
             {ProjectList.map((item, index) => {
-                return <ProjectItem title={item.title} image={item.image} text={item.description} github={item.github}/>
+                return <ProjectItem title={item.title} image={item.image} text={item.description} github={item.github} skills={item.skills}/>
             })}
         </div>
     

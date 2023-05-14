@@ -4,7 +4,7 @@ import {useNavigate} from 'react-router-dom'
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 
-const ProjectItem = ({title, image, text, github, id}) => {
+const ProjectItem = ({title, image, text, github, skills, id}) => {
   const navigate = useNavigate()
 
   return (
@@ -14,7 +14,7 @@ const ProjectItem = ({title, image, text, github, id}) => {
         <h3>{title}</h3>
         <p>{text} </p>
         <p className='text2'>
-            <BuildIcon style={{"font-size": "2.5vh"}}/> React, Golang, Oracle Database
+            <BuildIcon style={{"font-size": "2.5vh"}}/> Skills: {skills}
             <GitHubIcon className='icons' onClick={() => window.open(github)}/>
         </p>
         

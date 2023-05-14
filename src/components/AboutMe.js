@@ -35,10 +35,10 @@ const AboutMe = () => {
             <h1>Fun Facts About Me!</h1>
             <div className='fun-facts-prompt'>
                 <img className="pet" src={petSpin} alt="Cute Pet" />
-                <div className='bubble-left'>I'm a cats person!</div>
+                <div className='bubble-left'>I'm a cat person!</div>
             </div>
             <div className='fun-facts-prompt'>
-                <div className='bubble-right'> I love vegetables especially broccoli. </div>
+                <div className='bubble-right'> I love vegetables, especially broccoli. </div>
                 <img className="pet-right" src={broccoli} alt="Cute Pet" />
             </div>
             <div className='fun-facts-prompt'>
@@ -46,7 +46,7 @@ const AboutMe = () => {
                 <div className='bubble-left'>My favorite leetcode language is Python!</div>
             </div>
             <div className='fun-facts-prompt'>
-                <div className='bubble-right'> I may be a cat person but I love corgis! </div>
+                <div className='bubble-right'> I may be a cat person, but I also love corgis! </div>
                 <img className="pet-right" src={corgi} alt="Cute Pet" />
             </div>
             
