@@ -19,7 +19,7 @@ const AboutMe = () => {
             <img src={profile} alt="Avatar"/>
             <div className='text'>
                 <h1>
-                    Hi! I'm Christine! I'm a Computer Science Student aspiring to Work in Tech!
+                    Hi! I'm Christine! <br/>I'm a Computer Science Student aspiring to Work in Tech!
                 </h1>
                 <p>
                     I am currently get my bachelor's degree in Computer Science at the University of Florida

@@ -1,8 +1,8 @@
 .home {
 
-	background: linear-gradient(-45deg, rgb(5, 243, 196), rgb(128, 83, 186), rgb(38, 93, 162), rgb(238, 224, 25));
+	background: linear-gradient(-45deg, rgb(5, 243, 196), rgb(128, 83, 186), rgb(21, 83, 189), rgb(238, 224, 25));
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 10s ease infinite;
 	height: 100vh;
 }
 
@@ -38,8 +38,8 @@
     padding-top: 80px;
     text-shadow: 
         3px 3px 0px rgb(38, 93, 162),
-        4px 4px 0px #61bb73,
-        6px 6px 0px #6868AC;
+        6px 6px 0px #61bb73,
+        10px 10px 0px #6868AC;
         
 }
 
@@ -55,6 +55,25 @@
     color: white;
     padding-left: 4vh;
 }
+
+.home .circle-down-icon {
+    font-size: 8vh;
+    margin-top: 7vh;
+    color: rgb(255, 255, 255);
+
+}
+
+.circle-down-icon:hover{
+    color: rgb(3, 156, 173);
+}
+
+.additional{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: -0.1vh;
+    font-size: 2vh;
+}
+
   
   
   

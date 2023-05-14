@@ -1,6 +1,6 @@
 .about-me {
-	background: linear-gradient(-45deg, rgb(5, 243, 196), rgb(128, 83, 186), rgb(38, 93, 162), rgb(238, 224, 25));
-	background-size: 400% 400%;
+	background: linear-gradient(-45deg, rgb(193, 225, 193), rgb(138, 79, 216), rgb(62, 194, 179), #ea4fb7);
+	/* background-size: 400% 400%; */
 	animation: gradient 30s ease infinite;
 	height: auto;
 }
@@ -53,7 +53,7 @@
 
 .about-me-prompt .text {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    width: 45%;
+    width: 50%;
     text-align: left;
 }
 

@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import AboutMe from './components/AboutMe';
 import Experiences from './components/Experiences';
+import Project from './components/Project';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/home" element={<Home/>}></Route>
           <Route path="/about-me" element={<AboutMe/>}></Route>
           <Route path="/experience" element={<Experiences/>}></Route>
+          <Route path="/projects" element={<Project/>}></Route>
         </Routes>
       </Router>
     </div>

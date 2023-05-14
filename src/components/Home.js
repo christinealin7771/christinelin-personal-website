@@ -3,10 +3,13 @@ import './Home.css';
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import EmailIcon from '@mui/icons-material/Email'
+import ExpandCircleDownIcon from '@mui/icons-material/ExpandCircleDown'
 
-import Footer from './Footer';
+import {useNavigate} from 'react-router-dom'
 
 const Home = () => {
+  const navigate = useNavigate()
+
   return (
     <section className="home">
       <div className="about">
@@ -20,6 +23,8 @@ const Home = () => {
           <EmailIcon onClick={() => window.location = 'mailto:christinelin.7771@gmail.com'}/>
         </div>
       </div>
+      <ExpandCircleDownIcon className='circle-down-icon' onClick={() => {navigate("/about-me")}}/>
+      <p className='additional'>Learn More About Me</p>
 
     </section>
     
