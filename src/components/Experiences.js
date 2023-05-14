@@ -133,7 +133,7 @@ const Experiences = () => {
         </div>
 
         <a href={resume} download="Christine_Lin_Resume" target='_blank'>
-        <button class="btn btn-1" >Download Resume </button>
+        <button class="btn btn-1" >Download Full Resume </button>
         </a>
         {/* <button class="btn btn-1" onClick={downloadResume}>Download Resume </button> */}
         <p className='spacing'></p>
