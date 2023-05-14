@@ -31,7 +31,8 @@
 .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 120px;
-    color: #fedf33;
+    color: #ffe655;
+    /* color: rgb(237, 237, 24); */
     height: 50px;
     font-weight: bold;
     letter-spacing: 1.5vh;

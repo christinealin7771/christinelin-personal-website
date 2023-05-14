@@ -5,7 +5,10 @@ import petSpin from '../images/pet-spin.gif'
 import broccoli from '../images/broccoli.gif'
 import python from '../images/python.webp'
 import corgi from '../images/corgi.gif'
+import language from '../images/language.gif'
+
 import Footer from './Footer';
+
 
 const AboutMe = () => {
   return (
@@ -48,6 +51,10 @@ const AboutMe = () => {
             <div className='fun-facts-prompt'>
                 <div className='bubble-right'> I may be a cat person, but I also love corgis! </div>
                 <img className="pet-right" src={corgi} alt="Cute Pet" />
+            </div>
+            <div className='fun-facts-prompt'>
+                <img className="pet" src={language} alt="Cute Pet" />
+                <div className='bubble-left'> I speak fluent Chinese, English and some fuzhounese.</div>
             </div>
             
         </div>

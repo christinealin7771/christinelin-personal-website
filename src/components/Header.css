@@ -10,11 +10,12 @@
 
 }
 
-/* .header-other {
-    width: 100%;
+.scrolled {
+    /* margin-top: -5vh; */
     height: 10%;
-    background-color: grey;
-} */
+    background-color: rgba(85, 98, 126, 0.93);
+    /* border-radius: 20%; */
+}
   
 .header-content {
     display: flex;
@@ -28,7 +29,7 @@
     border-bottom: 20px black;
 }
 
-.header-content-other {
+.header-content-scrolled {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,6 +59,7 @@
     padding-left: 20px;
     text-transform: uppercase;
 }
+
 
 .header a:hover {
     color: rgb(0, 0, 0);

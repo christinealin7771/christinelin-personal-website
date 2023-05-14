@@ -2,13 +2,16 @@ import React from 'react'
 import './Experiences.css'
 import WorkIcon from '@mui/icons-material/Work';
 import DomainIcon from '@mui/icons-material/Domain';
+import resume from '../resume/Christine_Lin_Resume.pdf'
 import Footer from './Footer';
 
 const Experiences = () => {
+
+
   return (
     <div className='experience'>
         
-        <h1>Work Experince</h1>
+        <h1>Work Experience</h1>
         
         <div class="resume-timeline">
             <div class="timeline-wrap">
@@ -128,7 +131,14 @@ const Experiences = () => {
 
             </div>
         </div>
+
+        <a href={resume} download="Christine_Lin_Resume" target='_blank'>
+        <button class="btn btn-1" >Download Resume </button>
+        </a>
+        {/* <button class="btn btn-1" onClick={downloadResume}>Download Resume </button> */}
         <p className='spacing'></p>
+
+        
         <Footer/>
     </div>
   )
