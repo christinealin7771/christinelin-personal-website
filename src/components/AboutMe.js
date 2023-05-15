@@ -28,7 +28,7 @@ const AboutMe = () => {
                     Hi! I'm Christine! <br/>I'm a Computer Science Student aspiring to Work in Tech!
                 </h1>
                 <p>
-                    I am currently get my bachelor's degree in Computer Science at the University of Florida
+                    I am currently getting my bachelor's degree in Computer Science at the University of Florida
                     with a Chinese minor. I started programming the summer before my senior year in high 
                     school. It initally started out as just a curiousity. However I didn't expect it 
                     would grow to be my passion.

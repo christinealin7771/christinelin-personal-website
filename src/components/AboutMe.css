@@ -65,8 +65,9 @@
 }
 
 .about-me-prompt .text p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    font-size: 19px;
+    font-size: 20px;
     line-height: 1.6;
 }
 
