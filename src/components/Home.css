@@ -3,7 +3,7 @@
 	background: linear-gradient(-45deg, rgb(5, 243, 196), rgb(128, 83, 186), rgb(21, 83, 189), rgb(238, 224, 25));
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
-	height: 100vh;
+	height: auto;
 }
 
 @keyframes gradient {
@@ -275,8 +275,3 @@
     
 
 }
-
-
-  
-  
-  

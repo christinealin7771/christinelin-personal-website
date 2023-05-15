@@ -7,6 +7,7 @@ import InstagramIcon from '@mui/icons-material/Instagram'
 import ExpandCircleDownIcon from '@mui/icons-material/ExpandCircleDown'
 
 import {useNavigate} from 'react-router-dom'
+import Footer from './Footer';
 
 const Home = () => {
   const navigate = useNavigate()
@@ -27,7 +28,7 @@ const Home = () => {
       </div>
       <ExpandCircleDownIcon className='circle-down-icon' onClick={() => {navigate("/christinelin-personal-website/about-me")}}/>
       <p className='additional'>Learn More About Me</p>
-
+      <Footer/>
     </section>
     
   );

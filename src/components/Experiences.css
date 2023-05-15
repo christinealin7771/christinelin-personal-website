@@ -2,7 +2,7 @@
 	background: linear-gradient(-45deg, rgb(121, 121, 113), rgb(112, 149, 179), rgb(175, 110, 213), rgb(174, 179, 109) );
 	/* background-size: 400% 400%; */
 	animation: gradient 20s ease infinite;
-	height: 110%;
+	height: auto;
 }
 
 @keyframes gradient {
