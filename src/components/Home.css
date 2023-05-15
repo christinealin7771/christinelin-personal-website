@@ -95,7 +95,7 @@
     .about .prompt {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         color: white;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .prompt svg {
@@ -128,7 +128,7 @@
     .about .prompt {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         color: white;
-        font-size: 20px;
+        font-size: 11px;
     }
 
     .prompt svg {
@@ -140,6 +140,8 @@
     
 
 }
+
+
   
   
   
