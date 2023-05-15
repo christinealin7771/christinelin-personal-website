@@ -9,7 +9,7 @@ import "./Footer.css"
 const Footer = () => {
   return (
     <div className="footer">
-        <h3> I'd Love To Connect With You!</h3>
+        <h4> I'd Love To Connect With You!</h4>
         <div className="socialMedia">
             <LinkedInIcon onClick={() => window.open('https://www.linkedin.com/in/christine-lin-9a0155189/')}/>
             <GitHubIcon onClick={() => window.open('https://github.com/christinealin7771')}/>

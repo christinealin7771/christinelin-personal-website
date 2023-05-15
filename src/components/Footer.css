@@ -20,7 +20,7 @@
     text-align: center;
   }
 
-.footer h3 {
+.footer h4 {
   margin-top: 10vh;
 }
 
@@ -36,7 +36,7 @@
       font-size: 15px;
     }
 
-    .footer h3{
+    .footer h4{
       margin-top: 10vh;
       font-size: 16px;
     }
