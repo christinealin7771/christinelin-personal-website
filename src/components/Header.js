@@ -28,10 +28,10 @@ const Header = () => {
     <header  className={`header ${isScroll? 'scrolled' : ''}`}>
       <div className={`header-content${isScroll? 'header-content-scrolled' : ''}`}>
         <div className = "links">
-            <Link to="/home">Home</Link>
-            <Link to="/about-me">About Me</Link>
-            <Link to="/experience">Resume</Link>
-            <Link to="/projects">Projects</Link>
+            <Link to="/christinelin-personal-website">Home</Link>
+            <Link to="/christinelin-personal-website/about-me">About Me</Link>
+            <Link to="/christinelin-personal-website/experience">Resume</Link>
+            <Link to="/christinelin-personal-website/projects">Projects</Link>
             {/* <Link to="/WiCSE-Personal-Project/experience">Fun Facts</Link> */}
             
         </div>

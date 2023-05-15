@@ -88,7 +88,7 @@ const AboutMe = () => {
                 an array of technical skills, I have learned that I enjoy software development, turning 
                 it into my passion. You may view highlights of my technical skills above, as well as more 
                 details about my carrer in the resume section.&nbsp;
-                <nobr className='more-here' onClick={() => {navigate("/experience"); window.scrollTo(0,0);} }>
+                <nobr className='more-here' onClick={() => {navigate("/christinelin-personal-website/experience"); window.scrollTo(0,0);} }>
                     <u>Learn more here</u>
                     <EastSharpIcon className='east-icons' />
                 </nobr>

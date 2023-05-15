@@ -25,7 +25,7 @@ const Home = () => {
           <InstagramIcon onClick={() => window.open('https://www.instagram.com/christine_linn_/')}/>
         </div>
       </div>
-      <ExpandCircleDownIcon className='circle-down-icon' onClick={() => {navigate("/about-me")}}/>
+      <ExpandCircleDownIcon className='circle-down-icon' onClick={() => {navigate("/christinelin-personal-website/about-me")}}/>
       <p className='additional'>Learn More About Me</p>
 
     </section>
