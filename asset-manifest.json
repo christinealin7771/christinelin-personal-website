@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/christinelin-personal-website/static/css/main.d9d79433.css",
+    "main.css": "/christinelin-personal-website/static/css/main.9964b531.css",
     "main.js": "/christinelin-personal-website/static/js/main.1aaddc2e.js",
     "static/js/787.bbe01249.chunk.js": "/christinelin-personal-website/static/js/787.bbe01249.chunk.js",
     "static/media/profile_pic.jpg": "/christinelin-personal-website/static/media/profile_pic.d25bbd411d8ee8a93fad.jpg",
@@ -16,12 +16,12 @@
     "static/media/python.webp": "/christinelin-personal-website/static/media/python.0bdddee2009fedd08650.webp",
     "static/media/logo.svg": "/christinelin-personal-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/christinelin-personal-website/index.html",
-    "main.d9d79433.css.map": "/christinelin-personal-website/static/css/main.d9d79433.css.map",
+    "main.9964b531.css.map": "/christinelin-personal-website/static/css/main.9964b531.css.map",
     "main.1aaddc2e.js.map": "/christinelin-personal-website/static/js/main.1aaddc2e.js.map",
     "787.bbe01249.chunk.js.map": "/christinelin-personal-website/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9d79433.css",
+    "static/css/main.9964b531.css",
     "static/js/main.1aaddc2e.js"
   ]
 }
