@@ -31,8 +31,9 @@
 .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 120px;
-    color: #ffe655;
+    /* color: #ffe655; */
     /* color: rgb(237, 237, 24); */
+    color: white;
     height: 50px;
     font-weight: bold;
     letter-spacing: 1.5vh;
@@ -40,7 +41,7 @@
     text-shadow: 
         3px 3px 0px rgb(38, 93, 162),
         6px 6px 0px #61bb73,
-        10px 10px 0px #6868AC;
+        10px 10px 0px #aa8bf3;
         
 }
 
@@ -55,6 +56,12 @@
     margin: 5px;
     color: white;
     padding-left: 4vh;
+    
+}
+
+.prompt svg:hover {
+    cursor: pointer;
+    color: rgb(41, 41, 39);
 }
 
 .home .circle-down-icon {
@@ -65,7 +72,8 @@
 }
 
 .circle-down-icon:hover{
-    color: rgb(3, 156, 173);
+    /* color: rgb(3, 156, 173); */
+    color: rgb(41, 41, 39);
     cursor: pointer;
 }
 
@@ -196,8 +204,9 @@
     .about h2 {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         font-size: 33px;
-        color: #ffe655;
+        /* color: #ffe655; */
         /* color: rgb(237, 237, 24); */
+        color: azure;
         height: 50px;
         font-weight: bold;
         letter-spacing: 1.5vh;
@@ -207,7 +216,6 @@
             6px 6px 0px #61bb73,
             10px 10px 0px #6868AC;
         margin-top: 15vh;
-            
     }
     .about .prompt {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;

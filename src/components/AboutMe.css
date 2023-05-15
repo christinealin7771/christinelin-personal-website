@@ -1,5 +1,5 @@
 .about-me {
-	background: linear-gradient(-45deg, rgb(193, 225, 193), rgb(138, 79, 216), rgb(62, 194, 179), #ea4fb7);
+	background: linear-gradient(-45deg, rgb(193, 225, 193), rgb(171, 117, 242), rgb(62, 194, 179), #ea4fb7);
 	/* background-size: 400% 400%; */
 	animation: gradient 30s ease infinite;
 	height: auto;
@@ -61,12 +61,15 @@
 
 .about-me-prompt .text h1 {
     font-size: 50px;
-    color: #fadd33
+    /* color: #fadd33 */
+    /* color: white; */
+    color: black;
 }
 
 .about-me-prompt .text p {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+    /* color: white; */
+    color: black;
     font-size: 20px;
     line-height: 1.6;
 }
@@ -89,18 +92,19 @@ div .line
     padding: 100px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     max-height: 100%;
-    color: white;
+    /* color: white; */
+    color: black;
     font-size: 35px;
-    text-shadow: 
+    /* text-shadow: 
         0.5px 0.5px 0px #020b16, 
         2px 2px 0px #6868AC,
-        4px 4px 0px #c3b66d;
+        4px 4px 0px #c3b66d; */
     margin-bottom: -4%;
 }
 
 .skills-text {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+    color: black;
     margin-right: 20%;
     margin-left: 20%;
     font-size: 3vh;
@@ -115,7 +119,8 @@ div .line
 }
 
 .skills-text .more-here:hover {
-    color: #03b8f4;
+    /* color: #03b8f4; */
+    color: rgb(213, 209, 209);
     cursor: pointer;
     
 }
@@ -210,12 +215,13 @@ div .line
     padding: 100px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     max-height: 100%;
-    color: white;
+    /* color: white; */
+    color: black;
     font-size: 35px;
-    text-shadow: 
+    /* text-shadow: 
         0.5px 0.5px 0px #020b16, 
         2px 2px 0px #6868AC,
-        4px 4px 0px #c3b66d;
+        4px 4px 0px #c3b66d; */
     margin-bottom: -4%;
 }
 

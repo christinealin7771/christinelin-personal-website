@@ -31,12 +31,13 @@
     padding: 100px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     max-height: 105%;
-    color: white;
+    /* color: white; */
+    color: black;
     font-size: 3rem;
-    text-shadow: 
+    /* text-shadow: 
         0.5px 0.5px 0px #020b16, 
-        /* 2px 2px 0px #6868AC, */
-        2px 2px 0px #c3b66d;
+        2px 2px 0px #6868AC,
+        2px 2px 0px #c3b66d; */
     margin-bottom: -5rem;
 }
 

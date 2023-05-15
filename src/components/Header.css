@@ -13,7 +13,7 @@
 .scrolled {
     /* margin-top: -5vh; */
     height: 10%;
-    background-color: rgba(85, 98, 126, 0.93);
+    background-color: rgb(120, 125, 195, 0.93);
     /* border-radius: 20%; */
 }
   
@@ -52,7 +52,7 @@
   
 .header a {
     text-decoration: none;
-    color: rgba(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin: 20px;
     font-size: 20px;
     font-weight: 20px;
@@ -62,7 +62,8 @@
 
 
 .header a:hover {
-    color: rgb(0, 0, 0);
+    
+    color: rgba(255, 255, 255);
 }
   
 
