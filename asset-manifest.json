@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3517cc38.css",
-    "main.js": "/static/js/main.1af3665e.js",
+    "main.js": "/static/js/main.b2b91467.js",
     "static/js/787.bbe01249.chunk.js": "/static/js/787.bbe01249.chunk.js",
     "static/media/profile_pic.jpg": "/static/media/profile_pic.d25bbd411d8ee8a93fad.jpg",
     "static/media/Christine_Lin_Resume.pdf": "/static/media/Christine_Lin_Resume.79ea88d1c3e76c0f47d2.pdf",
@@ -17,11 +17,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.3517cc38.css.map": "/static/css/main.3517cc38.css.map",
-    "main.1af3665e.js.map": "/static/js/main.1af3665e.js.map",
+    "main.b2b91467.js.map": "/static/js/main.b2b91467.js.map",
     "787.bbe01249.chunk.js.map": "/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3517cc38.css",
-    "static/js/main.1af3665e.js"
+    "static/js/main.b2b91467.js"
   ]
 }
