@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/christinelin-personal-website/static/css/main.6bdc9148.css",
-    "main.js": "/christinelin-personal-website/static/js/main.888c5ba2.js",
+    "main.css": "/christinelin-personal-website/static/css/main.4b38f92f.css",
+    "main.js": "/christinelin-personal-website/static/js/main.e21414b1.js",
     "static/js/787.bbe01249.chunk.js": "/christinelin-personal-website/static/js/787.bbe01249.chunk.js",
     "static/media/profile_pic.jpg": "/christinelin-personal-website/static/media/profile_pic.d25bbd411d8ee8a93fad.jpg",
     "static/media/Christine_Lin_Resume.pdf": "/christinelin-personal-website/static/media/Christine_Lin_Resume.79ea88d1c3e76c0f47d2.pdf",
@@ -16,12 +16,12 @@
     "static/media/python.webp": "/christinelin-personal-website/static/media/python.0bdddee2009fedd08650.webp",
     "static/media/logo.svg": "/christinelin-personal-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/christinelin-personal-website/index.html",
-    "main.6bdc9148.css.map": "/christinelin-personal-website/static/css/main.6bdc9148.css.map",
-    "main.888c5ba2.js.map": "/christinelin-personal-website/static/js/main.888c5ba2.js.map",
+    "main.4b38f92f.css.map": "/christinelin-personal-website/static/css/main.4b38f92f.css.map",
+    "main.e21414b1.js.map": "/christinelin-personal-website/static/js/main.e21414b1.js.map",
     "787.bbe01249.chunk.js.map": "/christinelin-personal-website/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bdc9148.css",
-    "static/js/main.888c5ba2.js"
+    "static/css/main.4b38f92f.css",
+    "static/js/main.e21414b1.js"
   ]
 }
