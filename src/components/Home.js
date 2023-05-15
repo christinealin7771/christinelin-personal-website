@@ -28,7 +28,7 @@ const Home = () => {
       </div>
       <ExpandCircleDownIcon className='circle-down-icon' onClick={() => {navigate("/christinelin-personal-website/about-me")}}/>
       <p className='additional'>Learn More About Me</p>
-      <Footer/>
+      <br></br>
     </section>
     
   );
