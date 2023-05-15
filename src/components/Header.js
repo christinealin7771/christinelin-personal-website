@@ -30,8 +30,8 @@ const Header = () => {
         <div className = "links">
             <Link to="/" >Home</Link>
             <Link to="/about-me" >About Me</Link>
-            <Link to="/experience" >Resume</Link>
-            <Link to="/projects">Projects</Link>
+            <Link to="/experience" onClick={window.scrollTo(0,0)}>Resume</Link>
+            <Link to="/projects" onClick={window.scrollTo(0,0)}>Projects</Link>
             
             {/* <Link to="/WiCSE-Personal-Project/experience">Fun Facts</Link> */}
             
