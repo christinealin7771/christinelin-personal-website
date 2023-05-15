@@ -52,10 +52,12 @@
 	left: 38%;
 	top: 0;
   }
+
 .experience .timeline-block {
 	position: relative;
 	padding-top: 1.5rem;
   }
+
 .experience .timeline-ico {
 	height: 3rem;
 	width: 3rem;
@@ -74,7 +76,7 @@
 	position: relative;
 	left: .05rem;
 	top: -0.5rem;
-  }
+}
   
  .experience .timeline-header {
 	float: left;
@@ -158,6 +160,121 @@
   .btn-1 {
 	background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
   }
+
+  @media only screen and (max-width: 700px) {
+	.experience .between-spacing{
+		margin-bottom: -10vh;
+	}
+
+    .experience h1{
+		font-size: 1.5rem;
+		text-align: left;
+
+	}
+
+	.experience .timeline-ico {
+		height: 2rem;
+		width: 2rem;
+		line-height: 3rem;
+		left: 29%;
+		top: 1rem;
+		margin-left: 5%;
+	}
+
+	.experience .timeline-ico .i {
+		font-size: 15px;
+		left: .05rem;
+	}
+
+	.experience .timeline-header h2 {
+		font-size: 1rem;
+		margin-left: 0.7vh;
+	}
+
+	.experience .timeline-header p {
+		font-size: 0.8rem;
+		margin-bottom: -6vh;
+	}
+
+	.experience .timeline-content h4 {
+		position:relative;
+		font-size: 1.4rem;
+		left: -40px;
+		margin-left: 22px;
+		margin-top: 4vh;
+	}
+
+	.experience .timeline-content p {
+		font-size: 0.9rem;
+		margin-left: -2vh;
+	}
+
+	.experience .timeline-content li {
+		text-indent: -1.3rem; 
+		padding-bottom: 0.8rem;
+	}
+
+
+
+}
+
+
+
+@media only screen and (max-width: 400px) {
+	.experience .between-spacing{
+		margin-bottom: -10vh;
+	}
+
+    .experience h1{
+		font-size: 1.5rem;
+		text-align: left;
+
+	}
+
+	.experience .timeline-ico {
+		height: 2rem;
+		width: 2rem;
+		line-height: 3rem;
+		left: 29%;
+		top: 1rem;
+		margin-left: 5%;
+	}
+
+	.experience .timeline-ico .i {
+		font-size: 15px;
+		left: .05rem;
+	}
+
+	.experience .timeline-header h2 {
+		font-size: 1rem;
+		margin-left: 0.7vh;
+	}
+
+	.experience .timeline-header p {
+		font-size: 0.8rem;
+		margin-bottom: -6vh;
+		margin-right: 1vh;
+	}
+
+	.experience .timeline-content h4 {
+		position:relative;
+		font-size: 1.4rem;
+		left: -40px;
+		margin-left: 22px;
+		margin-top: 4vh;
+	}
+
+	.experience .timeline-content p {
+		font-size: 0.9rem;
+		margin-left: -2vh;
+	}
+
+	.experience .timeline-content li {
+		text-indent: -1.3rem; 
+		padding-bottom: 0.8rem;
+	}
+
+}
 
 
 

@@ -129,8 +129,127 @@
   .project .spacing {
 	padding-bottom: 5%;
 }
-  
-  /* .projectItem h1 {
-    font-size: 25px;
-  } */
 
+
+@media only screen and (max-width: 1100px) {
+    .project h1{
+        font-size: 2rem;
+    }
+
+    .projectItem {
+        width: 45vh;
+        height: 40vh;
+    }
+
+    .projectList {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .projectItem .display-text h3{
+        font-size: 3vh;
+        padding-top: 18vh;
+    }
+
+    .projectItem .display-text p{
+        font-size: 2vh;
+        line-height: 1rem;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: -5vh;
+    }
+
+    .projectItem .display-text .text2{
+        font-size: 2vh;
+    }
+
+    .projectItem .display-text .icons{
+        font-size: 3.5vh;
+        margin-top: 1.1vh;
+    }
+
+    
+}
+  
+
+
+@media only screen and (max-width: 600px) {
+    .project h1{
+        font-size: 2rem;
+    }
+
+    .projectItem {
+        width: 45vh;
+        height: 40vh;
+    }
+
+    .projectList {
+        display: grid;
+        grid-template-columns: auto ;
+    }
+
+    .projectItem .display-text h3{
+        font-size: 3vh;
+        padding-top: 18vh;
+    }
+
+    .projectItem .display-text p{
+        font-size: 2vh;
+        line-height: 1rem;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: -5vh;
+    }
+
+    .projectItem .display-text .text2{
+        font-size: 2vh;
+    }
+
+    .projectItem .display-text .icons{
+        font-size: 3.5vh;
+        margin-top: 1.1vh;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 400px) {
+    .project h1{
+        font-size: 2rem;
+    }
+
+    .projectItem {
+        width: 45vh;
+        height: 40vh;
+    }
+
+    .projectList {
+        display: grid;
+        grid-template-columns: auto ;
+    }
+
+    .projectItem .display-text h3{
+        font-size: 3vh;
+        padding-top: 18vh;
+    }
+
+    .projectItem .display-text p{
+        font-size: 2vh;
+        line-height: 1rem;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: -5vh;
+    }
+
+    .projectItem .display-text .text2{
+        font-size: 2vh;
+    }
+
+    .projectItem .display-text .icons{
+        font-size: 3.5vh;
+        margin-top: 1.1vh;
+    }
+
+    
+}

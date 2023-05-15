@@ -25,7 +25,12 @@ const Experiences = () => {
                         <p>May 2023 - Present</p>
                     </div>
                     <div class="timeline-content">
-                        <h4>Amazon</h4>
+                        <h4>Amazon
+                            {/* <div style={{"color" : "black", "font-size": "12px"}}>
+                                <i>Seattle, WA</i>
+                            </div> */}
+
+                        </h4>
                         <p> 
                             <li>Incoming</li>
                         </p>
@@ -41,9 +46,13 @@ const Experiences = () => {
                         <p>June 2022 - August 2022</p>
                     </div>
                     <div class="timeline-content">
-                        <h4>Capital One</h4>
+                        <h4>Capital One
+                            {/* <div style={{"color" : "black", "font-size": "13px", "margin-top":"5px", "font-weight" : "300px"}}>
+                                <i>McLean, VA</i>
+                            </div> */}
+                        </h4>
                         <p>
-                            <li>Created a new SSO gateway using Spring Security 5 to replace the deprecated OAuth2.</li>
+                            <li className='first-li'>Created a new SSO gateway using Spring Security 5 to replace the deprecated OAuth2.</li>
                             <li> Used the Spring Security 5 framework, Java, and Spring Boot to authenticate and authorize Java applications.</li>
                             <li> Participated in multiple workshops to learn about Machine Learning, AWS, Agile, DevOps, Golang, APIs, SQL, and React.</li>
                         </p>

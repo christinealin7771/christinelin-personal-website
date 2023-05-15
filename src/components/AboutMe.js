@@ -46,7 +46,7 @@ const AboutMe = () => {
                </li>
                <li>
                   <div class="progress percent90"><span>90%</span></div>
-                  <strong>MySQL/PostgreSQL</strong>
+                  <strong>PostgreSQL/SQL</strong>
                </li>
                <li>
                   <div class="progress percent80"><span>80%</span></div>
@@ -70,7 +70,7 @@ const AboutMe = () => {
                </li>
                <li>
                   <div class="progress percent70"><span>70%</span></div>
-                  <strong>Spring Framework</strong>
+                  <strong>Spring </strong>
                </li>
                <li>
                   <div class="progress percent50"><span>50%</span></div>
