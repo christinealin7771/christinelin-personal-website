@@ -66,6 +66,7 @@
 
 .circle-down-icon:hover{
     color: rgb(3, 156, 173);
+    cursor: pointer;
 }
 
 .additional{

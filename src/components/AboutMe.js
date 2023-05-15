@@ -39,7 +39,6 @@ const AboutMe = () => {
 
         <div className='skills'>
             <h1>Skills</h1>
-
             <ul class="skill-bars">
                <li>
                   <div class="progress percent90"><span>90%</span></div>
@@ -84,18 +83,16 @@ const AboutMe = () => {
             </ul>
 
             <div className='skills-text'>
-                I have a lot of experience with full stack web development, especially in React. I have also
-                had experience in machine learning with Python and Pandas. I really like software development and 
-                have a wide range of technical experinece. Above are highlights of my technical skills. You can also learn more about my 
-                experience in the resume section.&nbsp;
+                I have gained extensive experience in full-stack web development. I have also been exposed 
+                to machine learning with Python modules such as scikit-learn and librosa. After gathering 
+                an array of technical skills, I have learned that I enjoy software development, turning 
+                it into my passion. You may view highlights of my technical skills above, as well as more 
+                details about my carrer in the resume section.&nbsp;
                 <nobr className='more-here' onClick={() => {navigate("/experience"); window.scrollTo(0,0);} }>
                     <u>Learn more here</u>
                     <EastSharpIcon className='east-icons' />
                 </nobr>
             </div>
-
-
-
             <div className='line'></div>
         </div>
 

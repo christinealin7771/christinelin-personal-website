@@ -115,6 +115,7 @@ div .line
 
 .skills-text .more-here:hover {
     color: #03b8f4;
+    cursor: pointer;
     
 }
 
@@ -141,14 +142,15 @@ div .line
     left: 0;
     top: -2rem;
     font-family: "poppins-bold", sans-serif;
-    color: #0b0a0a;
+    color: #0e0c0c;
     text-transform: uppercase;
     letter-spacing: .2rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 2.4rem;
   }
   .skill-bars li .progress {
-    background: #f66f1b;
+    /* background: #9d2ce3; */
+    background: rgb(241, 164, 69);
     position: relative;
     height: 100%;
   }
