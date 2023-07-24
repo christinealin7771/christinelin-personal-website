@@ -32,7 +32,8 @@ const Experiences = () => {
 
                         </h4>
                         <p> 
-                            <li>Incoming</li>
+                            <li>Developed and designed a recommender that auto-populates API contracts (one source of truth for routing rules) with Client Configuration files to help service owners facilitate routing changes with clients.</li>
+                            <li>Created a full stack service using Typescript and Java/Lambda backend that would ingest repositories and extract their contents to generate these API Contracts.</li>
                         </p>
                     </div>
                 </div>
